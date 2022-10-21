@@ -1,4 +1,8 @@
 COMPILER=ifort
+COMPILER=ifx
+#COMPILER=nvfortran
+#COMPILER=gfortran
+#COMPILER=ftn
 main:
 	echo You must compile either pointers or interfaces
 interfaces: clean
